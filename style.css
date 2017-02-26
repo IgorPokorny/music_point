@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title_block {
+    background-color: dimgrey;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    
+    
+}
+
+.title_content {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 8px;
+
+}
+
+.logo {
+    float: left;
+    padding: 12px 0 14px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    padding: 12px 20px 14px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+	background-color: #4d4d4d;
+}
+
+.cleaner {
+    border: 0;
+    clear: both;
+    
+}
+
+.main_block {
+    background-image: url(crowds2.jpg);
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+
+.main_content {
+   
+    max-width: 1200px;
+    padding-bottom: 10px;
+    
+    margin:120px auto 80px auto;
+    
+    line-height: 200%;
+    background-color: #4e4e4e;
+    opacity: 0.7;
+    color: white;
+}
+
+.main_content p {
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 100;
+}
+
+.main_content .button {
+    background-color: #a29f9f;
+    border: none;
+    color: white;
+    padding: 9px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+.main_content .button:hover {
+    background-color: #262626;
+}
+
+.info_block {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    line-height: 150%;
+    font-size: 20px;
+}
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+}
+
+.info_block h2 {
+    margin-bottom: 5px;
+    font-size: 36px;
+    color: #6060d5;
+    font-weight: 100;
+}
+
+.deco_line {
+    color: #6060d5;
+    width: 120px;
+}
+
+h3 {
+    color: #6060d5;
+} 
+
+.secondary-info-wrapper {
+    width: 33%;
+    float: left;
+}
+
+.secondary-info {
+    margin: 10px 25px;
+    text-align: center;
+}
+
+.secondary-info h3 {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    font-weight: 100;
+}
+
+.secondary-info p {
+    margin-top: 8px;
+}
+
+.actions_button {
+    clear: both;
+  
+}
+
+.info_block .button {
+    background-color: #afabab;
+    border: none;
+    color: white;
+    padding: 0px 8px;
+    text-align: center;      
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:2px 2px;
+    /*cursor: pointer;*/
+}
+
+.info_block .button:hover {
+    background-color: #6f6d6d;
+}
+
+.footer {
+    background-image: url(escape-flight.png);
+    margin-top: 50px;
+    padding-top: 2em;
+    padding-bottom: 100px;
+}
+
+.footer p {
+    margin-left: 100px;
+    color: white;
+    margin-top: 32px;
+}
